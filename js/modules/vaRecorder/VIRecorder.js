@@ -297,8 +297,8 @@ var VIRecorder = (function(){
 
     
     function uploadBlobs(blobchunk , namesend){
-        var fd = new FormData();
-        fd.append("fileToUpload", blobchunk);
+        //var fd = new FormData();
+        //fd.append("fileToUpload", blobchunk);
         var xhr = new XMLHttpRequest();
 
 
@@ -319,7 +319,7 @@ var VIRecorder = (function(){
                 functononupload(BlobSlizeArray.length , BlobSlizeArray.length);
             }
         };
-        xhr.send(fd);
+        xhr.send(blobchunk);
     }
 
 
