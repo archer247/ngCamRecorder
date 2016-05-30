@@ -328,12 +328,12 @@ var VIRecorder = (function(){
     function uploadComplete(evt) {
             lg("Upload Success");
             if (evt.target.responseText != ""){
-               alert(evt.target.responseText);
+              // alert(evt.target.responseText);
             }
     }
 
     function uploadFailed(evt) {
-            alert("There was an error attempting to upload the file.");
+            alert("Existió un error al subir el archivo.");
     }
 
     function uploadCanceled(evt) {
