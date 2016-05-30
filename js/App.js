@@ -25,12 +25,12 @@ mainapp.controller("testcontroller" , function ($scope) {
             output :{
                 recordingthumb : null,
                	recordinguploaded : function(){
-               		alert("uploaded");
+               		//alert("uploaded");
                	}
             },
 
             recordingerror : function(){
-            	alert("browser not compatible");
+            	alert("browser no compatible");
             }      
     }
 	$scope.camconfiguration = configuration;
